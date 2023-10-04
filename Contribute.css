@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+
+
+/* nav styles */
+.nav_links{
+	list-style: none;
+}
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+
+}
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+	text-decoration: none;
+	margin: right;
+	color: white;
+}
+
+.nav_links a:hover {
+  color: #FDFD03;
+}
+.nav_links li {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+    font-style: italic;
+}
+.nav {
+	float: right;
+}
+
+
+/*----------CONTRIBUTE---------------*/
+body{
+	background-image: url("Project2_Images/BlackandWhite/AdobeStock_600576991.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 0px;
+    background-color:#1A1818 ;
+    margin: 0;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+
+}
+
+
+ header{
+ 	display: flex;
+ 	align-items: center;
+ 	padding: 12px 5%;
+ 	justify-content: space-between;
+ 	padding-top: 40px;
+ }
+
+ .Title1 h1{
+	font-family: "good-times", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 100px;
+	color: white;
+	margin-left: 25%;
+    text-align: right;
+    padding-top: 24%;
+    margin-right: 86px;
+}
+
+
+.container .Title2 h1{
+	font-family: 'Source Code Pro', monospace;
+	font-weight: Extrabold;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #FDFD03;
+    padding-top: 55px;
+}
+
+.Title2 h1 hr{
+	  margin-left: 24%;
+    margin-right: 24%;
+    color: #FDFD03;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+  }
+.contact-box{
+	background-color: white;
+
+}
+.contact-box h1{
+    font-family: "News Cycle";
+    font-weight: extrabold;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-left: 60px;
+    padding-top: 35px;
+}
+.contact-box p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+    font-weight: light;
+    font-style: normal;
+    color: grey;
+    margin-left: 60px;
+    margin-right: 39%;
+ }
+.contact-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+}
+.input-row{
+	font-family: "News Cycle";
+    font-weight: 300;
+    font-size: 18px;
+	margin-bottom: 20px;
+}
+.input-row .input-group{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #393838;
+	outline: none;
+	padding-bottom: 10px;
+
+}
+
+textarea{
+	width: 90%;
+	border: 1px solid #393838;
+	outline: none;
+	padding: 5px;
+	box-sizing: border-box;
+	height: 200px;
+	margin-left: 60px;
+}
+
+
+
+/*----------------FORM-----------------*/
+form .Numbers .Title{
+	font-family: "News Cycle";
+    font-weight: 300;
+    font-size: 18px;
+    color: black; 
+}
+
+form .Numbers .Amount{
+	font-family: "News Cycle";
+    font-weight: 400;
+    font-size: 16px;
+    margin: 14px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.Numbers .Amount label{
+display: flex;
+align-items: center;
+}
+.Numbers .Amount .dot{
+	height: 18px;
+	width: 18px;
+	background: #d9d9d9;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 5px solid transparent;
+}
+
+#dot-1:checked ~ .Amount .one{
+border-color: #d9d9d9;
+background:black;
+
+}
+#dot-2:checked ~ .Amount .two{
+border-color: #d9d9d9;
+background:black;
+
+}
+#dot-3:checked ~ .Amount .three{
+border-color: #d9d9d9;
+background:black;
+
+}
+#dot-4:checked ~ .Amount .four{
+border-color: #d9d9d9;
+background:black;
+
+}
+#dot-5:checked ~ .Amount .five{
+border-color: #d9d9d9;
+background:black;
+
+}
+#dot-6:checked ~ .Amount .six{
+border-color: #d9d9d9;
+background:black;
+
+}
+
+form input[type="radio"]{
+	display: none;
+}
+textarea{
+	width: 90%;
+	border: 1px solid #393838;
+	outline: none;
+	padding: 5px;
+	box-sizing: border-box;
+	height: 200px;
+  margin-left: unset;
+  margin-block: 2%;
+}
+button{
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 400;
+    font-size: 16px;
+	background:#FDFD03;
+	width: 30%;
+	border: none;
+	outline: none;
+	color: black;
+	height: 35px;
+	border-radius: 30px;
+}
+
+.respect p{
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 300;
+  font-size: 11px;
+  color: white;
+  margin-left: 10%;
+  padding-bottom: 6%;
+}
+
+/*-------------------FOOTER------------------*/
+
+.Info{
+    background-color: black;
+    padding-top: 8px;
+  margin-block: 0%;
+}
+
+.Info ul h5{
+font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    font-size: 12px;
+    padding-left: 15px;
+display: inline-block;
+color: white;
+margin-top: 15px;
+}
+.Info ul h4{
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    font-size: 12px;
+    color:#707070;
+   padding-left: 60%;
+   display: inline-block;
+
+}
+.Info a button{
+    background-color: transparent;
+    border-radius: 60px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    font-family: "Source Code Pro", monospace;
+    font-weight: Extrabold;
+    font-style: italic;
+    color: #FDFD03;
+    border: solid 1px black;
+    margin-left: 80%;
+    font-size: 13px;
+}
